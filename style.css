@@ -1,31 +1,35 @@
 h1
 {
  background-color: aqua;
- color: hotpink;
- 
+ color: navy;
 }
 h1
 {
- cursor: crosshair;
+ cursor: -webkit-grabbing;
 }
 body
 {
  background-color: aqua;
- text-decoration: red;
- height: 30px;
- caret-color: aqua;
-
-
-
-
-
 }
 body{
-
- color : hotpink;
+ clip: auto;
+ color: navy
 }
 h2
 {
- color: blue;
+ color:navy ;
  background-color: aqua;
+}
+p
+{
+ color: navy;
+}
+p
+{
+ height: 30px;
+ content: normal;
+ margin: normal;
+ cursor: pointer;
+ content: icon;
+ animation: backwards;
 }
